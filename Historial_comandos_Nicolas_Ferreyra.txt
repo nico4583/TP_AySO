@@ -1,0 +1,115 @@
+cd vm
+cd UTN-FRA_SO_Vagrant/
+cd VagrantFiles/
+cd 1_equipo/
+cd /
+cat passwd
+cd etc
+cat passwd
+cd /
+cd var
+cd log
+cat syslog
+sudo cat syslog
+cd /
+cd vm
+/
+cd vm
+cd vm/
+cd ..
+cd vm
+-$
+cd ..
+cd
+cd vm
+cd UTN-FRA_SO_Vagrant/
+close
+destroy
+halt
+$halt
+close
+end
+vargant destroy
+sudo destroy
+vagrant status
+hostnamectl --help
+hostnamectl status
+sudo mandb
+man -k net
+apt update
+sudo apt update
+apt tree
+sudo apt install tree
+tree
+cat --help
+cat readme
+cat README
+cd vm
+mkdir vm
+cd vm
+git clone https://github.com/upszot/UTN-FRA_SO_Vagrant.git
+cd UTN-FRA_SO_Vagrant/
+cd VagrantFiles/
+cd 1_equipo_con_mas_discos/
+cat
+ssh-keygen
+ll
+cd .ssh
+cat $HOME/.ssh/*.pub
+cd..
+cd ..
+pwd
+cd ..
+pwd
+cd
+pwd
+cd
+mkdir repogit
+lñ
+ll
+cd repogit
+git clone git@github.com:nico4583/TP_AySO.git
+cd TP_AySO/
+pwd
+ls -l
+cat /etc/os-release
+grepHOME_URL/etc/os-release
+man grep
+grep HOME_URL/etc/os-release
+grep home_url /etc/os-release
+grep HOME_URL/etc/os-release
+man gre
+man grep
+whoami
+man grep
+grep -s Home_url /etc/os-release
+grep -s HOME_URL /etc/os-release
+whoami
+echo "Usuario=$(whoami)">datos_usuario.txt
+ll
+git add .
+git status
+git config --global user.email "nicochampa04@gmail.com"
+git config --global user.name "nico4583"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git status
+grep "model name" /proc/cpuinfo | head -n 1
+grep "model name" /proc/cpuinfo | head -n 1 >> datos_usuario.txt
+git add datos_usuario.txt
+git commit -m "feat: Añadiendo información de CPU"
+grep -v "nologin" /etc/passwd | head -n 10 | sort -t ':' -k 7 > lista_ordenada
+git add lista_ordenada
+git commit -m "ADD: Listado de usuarios ordenada"
+echo "Comando para capturar tráfico de red: tcpdump" > comando_dump_net
+git add comando_dump_net
+git commit -m "ADD: Comando para Capturar y analizar el tráfico de red"
+cat <<EOF > README.md
+Alumno: Nicolas Ferreyra	
+División: 213-2
+Turno: Tarde
+EOF
+
+git add README.md
+git commit -m "docs: Añadiendo información personal al README"
+git status
+history -a
